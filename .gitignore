@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Uploads (runtime files, keep folder placeholders)
+backend/uploads/resumes/*
+!backend/uploads/resumes/.gitkeep
+
+# Git (this file itself)
+.git/
